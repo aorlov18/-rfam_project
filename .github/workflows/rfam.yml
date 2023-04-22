@@ -1,8 +1,9 @@
 name: rfam
 on: workflow_dispatch
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [ main ]
 jobs:
 sql_query:
     runs-on: ubuntu-latest
