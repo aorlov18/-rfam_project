@@ -1,6 +1,7 @@
 name: rfam
 on: workflow_dispatch
   push:
+    modified:   .github/workflows/rfam.yml
     branches: [ main ]
   pull_request:
     branches: [ main ]
