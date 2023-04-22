@@ -1,5 +1,5 @@
 name: rfam
-on:
+on: workflow_dispatch
   push:
     branches:
       - main
