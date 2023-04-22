@@ -1,7 +1,7 @@
-name^ Demo workflow
+name: Demo workflow
 on: workflow_dispatch
 job: 
   runs-on: ubuntu-latest
   steps: 
-    - nsme: print to console
+    - name: print to console
       run: echo Hello World!
