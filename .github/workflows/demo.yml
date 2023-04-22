@@ -1,7 +1,0 @@
-name: Demo workflow
-on: workflow_dispatch
-job: 
-  runs-on: ubuntu-latest
-  steps: 
-    - name: print to console
-      run: echo Hello World!
