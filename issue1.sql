@@ -1,4 +1,4 @@
 
 
-select * from fr.fram_acc limit 1;
+select * from fr.rfam_acc limit 1;
 
