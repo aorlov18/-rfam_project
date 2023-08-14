@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v3
       - name: Execute a SQL query
         run: |
-          mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam < issue1.sql
+           mysql --user rfamro --host mysql-rfam-public.ebi.ac.uk --port 4497 --database Rfam < issue1.sql
